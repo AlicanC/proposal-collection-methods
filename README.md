@@ -56,9 +56,9 @@ New methods are added to `Set.prototype`.
   * `Set.prototype.every(predicate, thisArg)`
 * New methods:
   * `Set.prototype.addAll(...elements)` - similar to `Array.prototype.push`. Adds all of arguments to existing `Set`.
-    * Alternative name: `.addEach`
+    * Alternative names: `.addEach`, `.addMany`
   * `Set.prototype.deleteAll(...elements)` - reverse of `addAll`. Remove every `element` in `elements` from existing `Set`.
-    * Alternative names: `.deleteEach`
+    * Alternative names: `.deleteEach`, `.deleteMany`
 
 New methods are added to `Map.prototype`.
 
